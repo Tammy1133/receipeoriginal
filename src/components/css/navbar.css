@@ -1,0 +1,27 @@
+.logo {
+  height: 70px;
+  width: 100%;
+}
+
+nav {
+  align-items: center !important;
+  padding: 20px !important;
+  justify-content: space-between;
+  background-color: white !important;
+}
+
+.searchButton {
+  cursor: pointer;
+}
+
+.nav-link {
+  font-size: 20px !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  color: rgb(44, 98, 2) !important;
+  transition: 0.7s !important;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}

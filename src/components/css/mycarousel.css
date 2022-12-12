@@ -1,0 +1,43 @@
+.carousel-img {
+  object-fit: cover;
+  filter: brightness(20%);
+}
+
+.carousel-item {
+  max-height: 90vh;
+}
+
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  bottom: 0 !important;
+}
+.carousel-caption h3 {
+  width: 68%;
+  text-transform: capitalize;
+}
+.carousel-caption p {
+  margin-top: 15px;
+}
+
+@media (min-width: 690px) and (max-width: 799px) {
+  .carousel-caption h3 {
+    font-size: 40px !important;
+  }
+}
+@media (min-width: 800px) {
+  .carousel-caption h3 {
+    font-size: 60px !important;
+  }
+}
+
+.green-span {
+  color: rgb(109, 199, 40);
+}
+
+.carousel-indicators {
+  display: none !important;
+}

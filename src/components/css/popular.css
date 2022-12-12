@@ -1,0 +1,83 @@
+.popular .trending {
+  margin-top: 90px !important;
+  padding: 0 0 50px 50px;
+}
+
+.popular .trendingheader h2 {
+  font-size: 46px;
+}
+
+.popular .trendingsub {
+  font-size: 18px;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+@media (max-width: 700px) {
+  .popular .trendingheader h2 {
+    font-size: 35px;
+  }
+}
+
+.popular .eachtrend {
+  flex-direction: column;
+  display: flex;
+
+  margin-bottom: 45px;
+}
+
+.popular .left .eachtrendimg {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.popular .purpose {
+  background-color: pink;
+  width: fit-content;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.popular .title {
+  font-size: 30px;
+  width: 70%;
+}
+
+.popular .otherinfo {
+  width: 75%;
+}
+
+.popular .right .eachtrendimg {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 500px;
+  width: 470px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.popular .eachtrendimg:hover {
+  transform: scale(1.1);
+}
+
+.poeachtrendimg {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 500px;
+  width: 470px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+@media (max-width: 700px) {
+  .poeachtrendimg {
+    height: 200px;
+    width: 300px;
+  }
+}

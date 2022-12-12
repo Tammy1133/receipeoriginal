@@ -1,0 +1,99 @@
+.trending {
+  margin-top: 90px !important;
+  padding: 0 0 50px 50px;
+}
+
+.trendingheader h2 {
+  font-size: 46px;
+}
+
+@media (max-width: 700px) {
+  .trendingheader h2 {
+    font-size: 35px;
+  }
+}
+
+.eachtrend {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+  text-align: center;
+  color: black;
+}
+
+.left .eachtrendimg {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.purpose {
+  background-color: pink;
+  width: fit-content;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 30px;
+  width: 70%;
+}
+
+.otherinfo {
+  width: 75%;
+}
+
+.right .eachtrendimg {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 500px;
+  width: 470px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.eachtrendimg:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 490px) {
+  .left .eachtrendimg {
+    height: 150px;
+    width: 250px;
+  }
+}
+@media (max-width: 449px) {
+  .right .eachtrendimg {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 700px) {
+  .left .eachtrendimg {
+    height: 200px;
+    width: 300px;
+  }
+}
+@media (max-width: 700px) {
+  .right .eachtrendimg {
+    height: 200px;
+    width: 300px;
+  }
+
+  .trendingsub {
+    width: 100% !important;
+  }
+  .otherinfo {
+    width: 100%;
+  }
+  .title {
+    width: 100%;
+  }
+}
